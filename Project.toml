@@ -1,0 +1,18 @@
+[package]
+name = "Pkg"
+uuid = "12345678-90ab-cdef-1234-567890abcdef"  # Replace with a unique UUID
+authors = ["Your Name <your.email@example.com>"]
+version = "0.1.0"
+
+[deps]
+# Add dependencies here, for example:
+# JSON = "682c06a0-de6a-54ab-a142-c8b1cf79cde6"
+
+[compat]
+julia = "1.5"
+
+[extras]
+Test = "8dfed614-e22c-5b08-85f4-124f016c19b2"
+
+[targets]
+test = ["Test"]
